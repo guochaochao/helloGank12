@@ -6,6 +6,7 @@
 * 实现视屏播放，功能包括全屏切换，手势控制音量和亮度，是用别人的库
 * 音乐播放正在开发中，以后会同步上来
 * 查看妹子图片放大缩小功能
+
 ![](https://github.com/guochaochao/helloGank12/blob/master/screenshots/s1.gif)  
 ![](https://github.com/guochaochao/helloGank12/blob/master/screenshots/s2.gif)  
 ![](https://github.com/guochaochao/helloGank12/blob/master/screenshots/s3.gif)  
