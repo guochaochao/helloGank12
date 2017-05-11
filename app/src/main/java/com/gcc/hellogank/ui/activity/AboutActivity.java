@@ -52,7 +52,7 @@ public class AboutActivity extends SuperBaseActivity {
                 Tools.openLink(AboutActivity.this, "http://gank.io/api");
                 break;
             case R.id.tv_star:
-                Tools.openLink(AboutActivity.this, "https://github.com/guochaochao/helloGank");
+                Tools.openLink(AboutActivity.this, "https://github.com/guochaochao/helloGank12");
                 break;
         }
     }
