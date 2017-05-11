@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/web_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/clockBackground">
+
+    <com.gcc.hellogank.view.TranslucentScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_left" />
+
+
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color3F3F3F">
+
+            </WebView>
+
+
+        </LinearLayout>
+    </com.gcc.hellogank.view.TranslucentScrollView>
+
+    <include layout="@layout/tool_bar" />
+</RelativeLayout>

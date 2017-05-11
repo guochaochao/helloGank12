@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="当前版本  V1.0.0 "
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                style="@style/Line_gray_horizontal"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/tv_api"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center"
+                android:text="api支持：《代码家 · 干货集中营》"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_15" />
+
+            <TextView style="@style/Line_gray_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_star"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center"
+                android:text="给个star吧"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_15" />
+
+            <TextView style="@style/Line_gray_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="用到的开源库："
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.jakewharton:butterknife:8.4.0'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'fm.jiecao:jiecaovideoplayer:5.5.2'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.youth.banner:banner:1.4.9'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.youth.banner:banner:1.4.9'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.github.bumptech.glide:glide:3.7.0'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.squareup.okhttp3:okhttp:3.2.0'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="compile 'com.google.code.gson:gson:2.2.4'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'com.github.chrisbanes:PhotoView:2.0.0'"
+                android:textColor="?attr/clockTextColor"
+                android:textSize="@dimen/font_13" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

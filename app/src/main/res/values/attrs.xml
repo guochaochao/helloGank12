@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="clockBackground" format="color" />
+    <attr name="clockTextColor" format="color" />
+    <attr name="toolBarColor" format="color" />
+
+    <attr name="visible_count" format="integer" />
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visible_count" />
+    </declare-styleable>
+</resources>

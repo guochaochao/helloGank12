@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/clockBackground"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/m_refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.gcc.hellogank.view.ScrollViewBottom
+            android:id="@+id/srollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ln_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.gcc.hellogank.view.GridViewForScrollView
+                    android:id="@+id/m_gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:numColumns="2"
+                    android:scrollbars="none">
+
+                </com.gcc.hellogank.view.GridViewForScrollView>
+
+                <include layout="@layout/listview_footer" />
+            </LinearLayout>
+        </com.gcc.hellogank.view.ScrollViewBottom>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
