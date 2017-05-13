@@ -129,7 +129,7 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
         refreshView.setOnRefreshListener(this);
         srollView.setScrollViewListener(this);
         addTextView();
-//        mainListview.setFocusable(false);//防止抢占焦点
+        mainListview.setFocusable(false);//防止抢占焦点
     }
 
     private void setToolbar() {
